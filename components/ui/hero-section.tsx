@@ -79,14 +79,8 @@ export function HeroSection() {
                 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-slate-900 leading-[0.9] tracking-tight"
               >
                 Muskurahat
-                <span className="block text-emerald-600 relative">
+                <span className="block text-emerald-600">
                   Food Services
-                  <motion.div
-                    initial={{ scaleX: 0 }}
-                    animate={{ scaleX: 1 }}
-                    transition={{ delay: 1, duration: 0.8 }}
-                    className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-full"
-                  />
                 </span>
               </motion.h1>
               
