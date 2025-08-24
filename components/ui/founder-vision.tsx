@@ -40,9 +40,10 @@ export function FounderVision() {
                 className="bg-white rounded-3xl shadow-2xl overflow-hidden"
               >
                 <img
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+                  src="/Media/pankajfounder.jpg"
                   alt="Pankaj Dhondiyal - Founder"
-                  className="w-full h-80 object-cover"
+                  className="w-full h-96 object-cover object-center"
+                  style={{ aspectRatio: '3/4' }}
                 />
                 <div className="p-8 bg-gradient-to-r from-primary-green to-green-600 text-white">
                   <h3 className="font-serif text-2xl font-semibold mb-2">Pankaj Dhondiyal</h3>

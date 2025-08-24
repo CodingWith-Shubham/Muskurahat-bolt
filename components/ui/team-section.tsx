@@ -10,37 +10,37 @@ export function TeamSection() {
     {
       name: 'Pankaj Dhondiyal',
       role: 'Founder & CEO',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg',
+      image: '/Media/pankajfounder.jpg',
       quote: 'Leading with compassion and vision for a healthier, more caring world through food.'
     },
     {
       name: 'Amit Sundriyal',
       role: 'Co-Founder',
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg',
+      image: '/Media/amit.jpg',
       quote: 'Passionate about bringing authentic flavors and building sustainable food systems.'
     },
     {
       name: 'Anmol Singh',
       role: 'Transport Manager',
-      image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg',
+      image: '/Media/anmol.jpg',
       quote: 'Ensuring every meal reaches you fresh, hot, and on time with our reliable delivery network.'
     },
     {
       name: 'Deepika Bandari',
       role: 'Digital Marketing',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg',
+      image: '/Media/deepika.jpg',
       quote: 'Connecting hearts through digital storytelling and spreading the message of healthy eating.'
     },
     {
       name: 'Mamta Bangari',
       role: 'HR & Customer Feedback',
-      image: 'https://images.pexels.com/photos/1080213/pexels-photo-1080213.jpeg',
+      image: '/Media/mamta.jpg',
       quote: 'Building a happy team and listening to our customers to continuously improve our service.'
     },
     {
       name: 'Rakesh Prasad',
       role: 'Marketing',
-      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg',
+      image: '/Media/rakesh.jpg',
       quote: 'Spreading awareness about healthy food choices and our mission of compassionate dining.'
     }
   ];
@@ -96,13 +96,19 @@ export function TeamSection() {
             <motion.div key={index} variants={itemVariants}>
               <Card className="group cursor-pointer h-full overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-all duration-300">
                 <div className="relative overflow-hidden">
-                  <motion.img
-                    whileHover={{ scale: 1.1 }}
-                    transition={{ duration: 0.4 }}
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full h-64 object-cover"
-                  />
+                  <motion.div 
+                    className="w-full h-80 overflow-hidden"
+                    style={{ aspectRatio: '3/4' }}
+                  >
+                    <motion.img
+                      whileHover={{ scale: 1.1 }}
+                      transition={{ duration: 0.4 }}
+                      src={member.image}
+                      alt={member.name}
+                      className="w-full h-full object-cover object-center"
+                      style={{ aspectRatio: '3/4' }}
+                    />
+                  </motion.div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   
                   {/* Name and Role on Image */}
