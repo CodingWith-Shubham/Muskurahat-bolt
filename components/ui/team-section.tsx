@@ -20,6 +20,24 @@ export function TeamSection() {
       quote: 'Passionate about bringing authentic flavors and building sustainable food systems.'
     },
     {
+      name: 'Sunil Kuliyal',
+      role: 'Pioneer',
+      image: '/Media/sunil.jpg',
+      quote: 'We envision Muskurahat as a home of purity—where food fuels health and service spreads smiles.'
+    },
+    {
+      name: 'Sandeep Negi',
+      role: 'Quality Manager',
+      image: '/Media/sandeep.jpg',
+      quote: 'Every bite should bring a smile; that\'s the Muskurahat promise of quality.'
+    },
+    {
+      name: 'Mahavir Shukla',
+      role: 'Marketing',
+      image: '/Media/mahavir.jpg',
+      quote: 'Jahan khana ho pure, wahan muskaan ho sure.'
+    },
+    {
       name: 'Anmol Singh',
       role: 'Transport Manager',
       image: '/Media/anmol.jpg',
