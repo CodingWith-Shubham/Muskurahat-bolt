@@ -32,19 +32,19 @@ export function ContactSection() {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+91 98765 43210', '+91 87654 32109'],
+      details: ['7303907205'],
       action: 'Call Now'
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@muskurahatfood.com', 'orders@muskurahatfood.com'],
+      details: ['infomuskurhatfood@gmail.com'],
       action: 'Send Email'
     },
     {
       icon: MapPin,
       title: 'Address',
-      details: ['123 Food Street, Green Valley', 'Delhi - 110001, India'],
+      details: ['janakpuri east'],
       action: 'Get Directions'
     },
     {
