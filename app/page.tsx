@@ -4,7 +4,6 @@ import { Navbar } from '@/components/ui/navbar';
 import { HeroSection } from '@/components/ui/hero-section';
 import { MenuSection } from '@/components/ui/menu-section';
 import { GallerySection } from '@/components/ui/gallery-section';
-import { TestimonialsSection } from '@/components/ui/testimonials-section';
 import { CharitySection } from '@/components/ui/charity-section';
 import { FounderVision } from '@/components/ui/founder-vision';
 import { TeamSection } from '@/components/ui/team-section';
@@ -18,8 +17,7 @@ export default function Home() {
       <HeroSection />
       <MenuSection />
       <GallerySection />
-      <TestimonialsSection />
-      <CharitySection />
+            <CharitySection />
       <FounderVision />
       <TeamSection />
       <ContactSection />

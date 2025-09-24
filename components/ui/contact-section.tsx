@@ -44,7 +44,7 @@ export function ContactSection() {
     {
       icon: MapPin,
       title: 'Address',
-      details: ['janakpuri east'],
+      details: ['WZ 33c, Third floor, krishna Park Extension 110018, Near Janakpuri East metro'],
       action: 'Get Directions'
     },
     {

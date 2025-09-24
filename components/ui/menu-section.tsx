@@ -11,42 +11,42 @@ export function MenuSection() {
     {
       name: 'Veg Thali',
       description: 'Complete homely meal with dal, sabzi, roti, rice, and dessert',
-      price: '₹120-150',
+      
       image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg',
       features: ['Healthy', 'Fresh', 'Complete Meal']
     },
     {
       name: 'Special Meals',
       description: 'Chef\'s special recipes with seasonal ingredients',
-      price: '₹180-220',
+      
       image: 'https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg',
       features: ['Premium', 'Seasonal', 'Chef Special']
     },
     {
       name: 'Family Pack',
       description: 'Perfect for 4-5 people with variety of dishes',
-      price: '₹450-550',
+      
       image: 'https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg',
       features: ['Family Size', 'Variety', 'Value Pack']
     },
     {
       name: 'Breakfast Special',
       description: 'Healthy morning meals with traditional touch',
-      price: '₹80-120',
+      
       image: 'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg',
       features: ['Morning Fresh', 'Traditional', 'Energizing']
     },
     {
       name: 'Seasonal Delights',
       description: 'Special dishes made with seasonal fruits and vegetables',
-      price: '₹100-180',
+      
       image: 'https://images.pexels.com/photos/1640771/pexels-photo-1640771.jpeg',
       features: ['Seasonal', 'Natural', 'Limited Time']
     },
     {
       name: 'Tiffin Service',
       description: 'Daily tiffin with rotating menu for working professionals',
-      price: '₹2500/month',
+      
       image: 'https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg',
       features: ['Daily Service', 'Office Delivery', 'Monthly Plan']
     }
@@ -135,9 +135,7 @@ export function MenuSection() {
                   </div>
 
                   <div className="flex items-center justify-between pt-4">
-                    <div className="text-2xl font-bold text-primary-orange">
-                      {item.price}
-                    </div>
+                    
                     <Button className="bg-primary-green hover:bg-primary-green/90 text-white rounded-full px-6">
                       Order Now
                     </Button>
