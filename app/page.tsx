@@ -6,6 +6,7 @@ import { MenuSection } from '@/components/ui/menu-section';
 import { GallerySection } from '@/components/ui/gallery-section';
 import { CharitySection } from '@/components/ui/charity-section';
 import { FounderVision } from '@/components/ui/founder-vision';
+import { NgoRecognitionSection } from '@/components/ui/ngo-recognition-section';
 import { TeamSection } from '@/components/ui/team-section';
 import { ContactSection } from '@/components/ui/contact-section';
 import { Footer } from '@/components/ui/footer';
@@ -19,6 +20,7 @@ export default function Home() {
       <GallerySection />
             <CharitySection />
       <FounderVision />
+      <NgoRecognitionSection />
       {/* <TeamSection /> */}
       <ContactSection />
       <Footer />

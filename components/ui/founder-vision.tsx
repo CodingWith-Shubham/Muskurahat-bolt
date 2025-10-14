@@ -105,9 +105,7 @@ export function FounderVision() {
                   viewport={{ once: true }}
                   className="text-lg md:text-xl text-gray-700 leading-relaxed italic"
                 >
-                  "I run a self-funded NGO and carry a powerful vision for prosperity built on compassion. 
-                  In today's world, people are surrounded by unhealthy food habits. Through Muskurahat Food, 
-                  my mission is to supply clean, pure, and healthy meals that not only nourish the body but also support society."
+                 "We are a self-funded group of friends driven by compassion and purpose. Our initiative, Share for Charity, focuses on supporting communities in need while collaborating with major NGOs like Nirmala Sewa Trust and others to create a lasting social impact."
                 </motion.blockquote>
                 
                 <motion.p
