@@ -19,7 +19,7 @@ export default function Home() {
       <GallerySection />
             <CharitySection />
       <FounderVision />
-      <TeamSection />
+      {/* <TeamSection /> */}
       <ContactSection />
       <Footer />
     </main>

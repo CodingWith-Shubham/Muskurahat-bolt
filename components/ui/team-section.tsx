@@ -43,12 +43,7 @@ export function TeamSection() {
       image: '/Media/anmol.jpg',
       quote: 'Ensuring every meal reaches you fresh, hot, and on time with our reliable delivery network.'
     },
-    {
-      name: 'Deepika Bandari',
-      role: 'Digital Marketing',
-      image: '/Media/deepika.jpg',
-      quote: 'Connecting hearts through digital storytelling and spreading the message of healthy eating.'
-    },
+   
     {
       name: 'Mamta Bangari',
       role: 'HR & Customer Feedback',
